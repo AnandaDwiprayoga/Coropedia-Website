@@ -1,0 +1,309 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Inter, sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    background: #fff;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    padding: 15px 5px;
+    font-weight: 500;
+    line-height: 22px;
+   
+}
+
+ul {
+    overflow: auto;
+   
+}
+
+li.ul-right {
+    float: right;
+}
+
+nav li.logo {
+    margin-right: 140px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.banner {
+    /* margin-top: 40px; */
+    padding-top: 70px;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.banner .container {
+    display: flex;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+li.icon {
+	display: none;
+	cursor: pointer;
+    font-size: 22px;
+}
+
+.right  img {
+    max-width: 70%;
+}
+
+.banner .right {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.banner .left {
+    flex-grow: 1;
+    padding: 68px 40px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+}
+
+.button {
+    background: #020101;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button.test {
+    display: inline;
+    padding: 11px 20px;
+}
+
+.banner .left p {
+    margin-bottom: 22px;
+}
+
+#hero-img img {
+    display: block;
+}
+
+div#first-content {
+    display: flex;
+    margin-top: 25px;
+}
+
+#first-content article {
+    padding: 30px 20px;
+    margin-right: 25px;
+}
+
+div#isi-first-content {
+    display: flex;
+}
+
+div#isi-kanan {
+    margin-top: 25px;
+    line-height: 1.4;
+}
+
+div#isi-kiri {
+    margin: auto;
+}
+
+aside {
+    padding: 25px 10px;
+    text-align: center;
+}
+
+aside h3 {
+    margin-bottom: 25px;
+}
+
+aside img.icon {
+    width: 15px;
+}
+
+aside img {
+    margin-bottom: 10px;
+}
+div#hero-img {
+    margin-top: 25px;
+}
+
+article#third-content {
+    padding: 25px 35px;
+    margin-top: 25px;
+}
+
+div#isi-third-content {
+    display: flex;
+}
+
+.gejala img {
+    max-width: 250px;
+}
+
+.gejala {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#third-content h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.gejala p {
+    font-weight: 600;
+}
+
+.cegah {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.cegah img {
+    max-width: 140px;
+}
+
+#fourth-content {
+    padding: 30px 10px;
+    background: #FAFAFC;
+    padding: 35px 15px;
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+#fourth-content h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.cegah p {
+    font-weight: 600;
+}
+
+footer {
+	margin-top: 100px;
+    padding: 15px;
+    text-align: center;
+    background: #9A9999;
+	color: #fff;
+}
+
+nav li:hover {
+    font-weight: 600;
+    border-bottom: 1px solid #FD9242;
+}
+
+.no-border:hover {
+    border-bottom: none;
+}
+
+
+.button:hover {
+    background: #fff;
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    border: 2px solid #020101;
+}
+
+
+
+@media screen and (max-width: 650px){
+	nav li {
+		padding: 6px;
+		float: none;
+		text-align: center;
+		margin: unset;
+	}
+
+	nav li.logo {
+		margin: unset;
+	}
+
+	li.ul-right {
+    	float: none;
+	}
+
+	li.icon {
+	    cursor: pointer;
+	    position: absolute;
+	    top: 8px;
+	    display: block;
+	    right: 19px;
+	    font-size: 22px;
+	}
+
+	nav li:not(:first-child):not(:last-child) {
+    	display: none;
+	}
+
+	.banner .left {
+    	padding: 35px;
+    	flex-basis: 25%
+	}
+
+	.right img {
+		max-width: unset;
+    	width: 100%;
+	}
+
+	div#isi-first-content {
+   		display: unset; 
+	}
+
+	div#first-content {
+		display: unset;
+	}
+	
+	#first-content article {
+    	width: 90%;
+    	padding: 30px 20px;
+   	 	margin: auto;
+    	text-align: center;
+	}
+	
+	aside {
+		width: 90%;
+    	margin: auto;
+    	margin-top: 25px;
+	}
+
+	div#isi-third-content {
+    	display: flex;
+    	flex-direction: column;
+	}
+
+	footer {
+		font-size: 12px;
+	}
+
+	.show {
+		display: block!important;
+	}
+
+	.hide {
+		display: none;
+	}
+
+} 
