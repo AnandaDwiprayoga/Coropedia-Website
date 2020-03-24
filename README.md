@@ -1,7 +1,7 @@
 # Coropedia Website   
 Website sepurat virus covid-19 corona virus, website ini untuk edukasi kepada masyarakat bahwa betapa bahayanya virus corona
 
-#Build With  
+# Build With  
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -9,5 +9,5 @@ Website sepurat virus covid-19 corona virus, website ini untuk edukasi kepada ma
   <li>Adobe XD (for asset design) </li>
 </ul>
 
-#Screen
-<img src="https://github.com/AnandaDwiprayoga/Coropedia-Website/tree/master/assets/screen/screen1.png" style="width:80%;margin:auto" />
+# Screen
+<img src="https://github.com/AnandaDwiprayoga/Coropedia-Website/blob/master/assets/screen/screen1.png" style="width:80%;margin:auto" />
